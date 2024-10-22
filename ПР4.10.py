@@ -1,4 +1,4 @@
-a,b = int(input())
+a,b = int(input()),int(input())
 def f(a, b):
     if a <= 0 or b <= 0:
         return 0

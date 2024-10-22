@@ -6,9 +6,9 @@ def f(a):
         return 1
     f, g = (1, 1)
     t = f + g
-    for i in range(2, a):
+    for i in range(2, a-1):
         f, g = g, f + g
         t += g
     return t
-r = f(a)г
+r = f(a)
 print(r)
